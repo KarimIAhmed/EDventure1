@@ -1,14 +1,13 @@
-import {Grid, Typography, Button} from '@material-ui/core';
-
+import {Grid, Typography, Button, Link} from '@material-ui/core';
 document.body.style.backgroundColor = "#192430";
 
 function Home() {
     
     return (
+        
         <div>
             <div style={{ padding: 150 }}>
             </div>
-
             <Grid
                 container
                 direction="row"
@@ -38,10 +37,14 @@ function Home() {
             direction="row"
             justify="center"
             alignItems="center"
+            
             >
-                <Button variant="contained">Begin your quest...</Button>
+                <Button href="https://www.google.com" variant="contained">Begin your quest... </Button>
+
             </Grid>
+           
         </div>
+        
     )
 }
 
